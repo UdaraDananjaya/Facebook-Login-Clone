@@ -1,0 +1,62 @@
+body {
+    background-color: #f0f2f5;
+    font-family: "Nunito Sans";
+}
+
+.login-form {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    padding: 25px;
+}
+
+h3 {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.btn-custom {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 700;
+    height: 48px;
+}
+
+.btn-custom {
+    color: #fff !important;
+}
+
+input {
+    height: 52px;
+    font-size: 18px !important;
+    color: #f2f2f2;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, .25);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 768px) {
+    .col-md-7,
+    p {
+        display: none;
+    }
+    input {
+        font-size: 16px !important;
+    }
+    .login-form {
+        box-shadow: none;
+    }
+}
